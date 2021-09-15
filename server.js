@@ -8,8 +8,6 @@ const moment = require('moment');
 const morgan = require('morgan');
 const favicon = require('serve-favicon');
 const path = require('path');
-const cookieParser = require('cookie-parser');
-
 
 const app = express();
 app.engine(   
@@ -39,8 +37,6 @@ app.engine(
 app.set('view engine', 'handlebars');
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(morgan('tiny'));
-app.use(cookieParser());
-
 
 app.get('/', (req, res) => res.redirect('/home'));
 app.use('/home', require('./routes/home'));

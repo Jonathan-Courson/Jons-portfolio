@@ -1,0 +1,54 @@
+a {
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+
+.colorChange:hover {
+  color: #007bff !important;
+}
+
+.basic_info a {
+  position: relative;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #777777;
+}
+
+.basic_info a i {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #766dff;
+}
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(77,0,219,1) 100%);
+}
+nav{
+  color: #80F018 !important;
+  font-size: 20px;
+}
+
+#personal_info {
+  height: 150px;
+}
+
+#self_picture {
+  width:100%
+}
+
+#personal_info a{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
