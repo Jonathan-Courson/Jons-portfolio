@@ -1,0 +1,14 @@
+{
+  "debug": "DEBUG",
+  "http": {
+    "hostname": "HOSTNAME",
+    "port": "PORT"
+  },
+  "sendgrid": {
+    "apiKey": "SENDGRID_API_KEY",
+    "from": "SENDGRID_FROM",
+    "to": "SENDGRID_TO",
+    "secret": "SENDGRID_SECRET",
+    "templates": {}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "auth": {
+  "secret": "authSecret"
+},
+    "sendgrid": {
+        "apiKey": "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",
+        "from": "jonathan456666@gmail.com",
+        "to": "jonathan456666@gmail.com",
+        "secret": "emailSecret"
+      }
+    
+}

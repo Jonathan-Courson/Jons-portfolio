@@ -1,0 +1,14 @@
+{
+  "http": {
+    "hostname": "localhost",
+    "port": 3000
+  },
+ "sendgrid": {
+    "apiKey": "",
+    "from": "",
+    "to": "",
+    "secret": "",
+    "templates": {}
+  }
+
+}
