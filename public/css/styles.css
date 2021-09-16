@@ -30,13 +30,17 @@ a:focus {
   color: #766dff;
 }
 
+nav{
+  /* background-color: rgba(37, 34, 87, 0.9); */
+  background: linear-gradient(90deg, rgba(2,0,36,.8) 0%, rgba(77,0,219,.8) 100%);
+  backdrop-filter: blur(5px);
+  color: #00ff77 !important;
+  font-size: 20px;
+}
+
 body{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(77,0,219,1) 100%);
-}
-nav{
-  color: #80F018 !important;
-  font-size: 20px;
 }
 
 #personal_info {

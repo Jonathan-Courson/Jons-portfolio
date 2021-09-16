@@ -44,6 +44,7 @@ app.use('/home', require('./routes/home'));
 app.use('/', express.static('public'));
 app.use('/jquery', express.static('node_modules/jquery/dist'));
 app.use('/bootstrap', express.static('node_modules/bootstrap/dist'));
+app.use('/animate.css', express.static('node_modules/animate.css'))
 
 app.use(require('./middleware/error404'));
 app.use(require('./middleware/error500'));
