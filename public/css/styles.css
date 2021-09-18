@@ -56,3 +56,7 @@ body{
   margin-bottom: auto;
   margin-right: auto;
 }
+
+.who_am_i_cards card{
+  margin: auto;
+}
