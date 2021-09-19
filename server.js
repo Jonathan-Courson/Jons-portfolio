@@ -40,11 +40,21 @@ app.use(morgan('tiny'));
 
 app.get('/', (req, res) => res.redirect('/home'));
 app.use('/home', require('./routes/home'));
+app.get('/resume', function(req, res){
+  //res.download('C:/Users/jonat/Desktop/Jons-portfolio/public/Jonathan_Courson.pdf', function(error){
+  //    console.log("Error : ", error)
+  //});
+  res.download(path.join(__dirname, "public/Jonathan_Courson.pdf"));
+  
+
+});
+ 
 
 app.use('/', express.static('public'));
 app.use('/jquery', express.static('node_modules/jquery/dist'));
 app.use('/bootstrap', express.static('node_modules/bootstrap/dist'));
 app.use('/animate.css', express.static('node_modules/animate.css'))
+app.use('/wow.js', express.static('node_modules/wow.js/dist'));
 
 app.use(require('./middleware/error404'));
 app.use(require('./middleware/error500'));
